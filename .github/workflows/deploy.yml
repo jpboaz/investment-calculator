@@ -21,6 +21,7 @@ jobs:
 
       - name: Build
         env:
+          NODE_ENV: production
           BASE_PATH: '/investment-calculator'
         run: |
           npm run build
